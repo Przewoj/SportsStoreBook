@@ -9,9 +9,9 @@ namespace SportsStore.WebUI.Controllers
     public class GeneralController : Controller
     {
         // GET: General
-        public string General()
+        public ViewResult General()
         {
-            return "Hello!";
+            return View();
         }
     }
 }
