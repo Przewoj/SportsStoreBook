@@ -4,13 +4,15 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
 namespace SportsStore.WebUI.Controllers
 {
     public class GeneralController : Controller
     {
         // GET: General
-        public ViewResult General()
+        public ViewResult Testowy()
         {
+            
             return View();
         }
     }
